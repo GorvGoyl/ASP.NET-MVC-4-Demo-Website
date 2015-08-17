@@ -11,6 +11,7 @@ namespace MvcDemo.Models
     //        next step, is to include connection string in web.config file.
     public class EmployeeContext : DbContext
     {
+        public DbSet<Department> Departments { get; set; }
         public DbSet<Employee> Employees { get; set; }
     }
 

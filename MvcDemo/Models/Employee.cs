@@ -13,5 +13,6 @@ namespace MvcDemo.Models
         public string Name { get; set; }
         public string Gender { get; set; }
         public string City { get; set; }
+        public int DepartmentId { get; set; }
     }
 }
